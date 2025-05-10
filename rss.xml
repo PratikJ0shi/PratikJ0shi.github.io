@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>Pratik Joshi's Blog Feed</title>
+    <link>https://pratiks-desk.site</link>
+    <description>Latest beginner blogs by Pratik Joshi on testing, programming, and tech notes.</description>
+    <language>en-us</language>
+
+    <item>
+      <title>TechBrary - Software Testing Concepts</title>
+      <link>https://techbrary.pratiks-desk.site</link>
+      <description>A beginner-friendly library of software testing knowledge and tips.</description>
+      <pubDate>Thu, 25 Apr 2024 10:00:00 +0000</pubDate>
+    </item>
+
+    <item>
+      <title>Let's Programming - Learn Java & Selenium</title>
+      <link>https://lets-programming.pratiks-desk.site</link>
+      <description>Explore hands-on programming with Java, Selenium, and automation practices.</description>
+      <pubDate>Wed, 17 Apr 2024 14:00:00 +0000</pubDate>
+    </item>
+
+    <item>
+      <title>BugDiary - My Testing Journey</title>
+      <link>https://bugdiary.pratiks-desk.site</link>
+      <description>Notes, bugs, and daily learnings from my QA and automation journey.</description>
+      <pubDate>Mon, 08 Apr 2024 09:00:00 +0000</pubDate>
+    </item>
+
+  </channel>
+</rss>
