@@ -64,8 +64,8 @@
             color: black;
             background-color: orange;
         }
-        body { font-family: Arial, sans-serif; background-color: #000; color: #fde68c; padding: 5px; text-align: center; }
-        .header { display: flex; justify-content: space-between; align-items: center; padding: 10px 20px; background: #111; border-radius: 10px; position: relative; }
+        body { font-family: Arial, sans-serif; background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);color: #fde68c; padding: 5px; text-align: center; }
+        .header { display: flex; justify-content: space-between; align-items: center; padding: 10px 20px; background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%); border-radius: 10px; position: relative; }
         
         /* Logo */
         .logo img { width: 60px; border-radius: 50%; cursor: pointer; transition: 0.3s; }
@@ -102,15 +102,18 @@
          .navbar .resume:hover{ background-color: #1a920a;}
         
         /* About Section */
-        .about, .portfolio, .contact {
+        .about, .portfolio,.contact{
             width: 80%;
             margin: 30px auto;
             padding: 20px;
             border: 2px solid #f2bd45;
             border-radius: 10px;
-            background: #111;
             text-align: center;
+            font-weight:bold;
         }
+
+        .about, .portfolio{background-image: linear-gradient(to right, #3ab5b0 0%, #3d99be 31%, #56317a 100%);}
+        .contact{background-image: linear-gradient(45deg, #8baaaa 0%, #ae8b9c 100%);}
 
         .about h2, .portfolio h2, .contact h2 {
             color: #ffff00;
@@ -345,4 +348,3 @@
     </script>     
 </body>
 </html>
-
