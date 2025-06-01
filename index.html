@@ -219,7 +219,19 @@
         /* Responsive Menu */
         .menu-toggle { display: none; font-size: 24px; cursor: none; color: white; }
 
-         @media (max-width: 1200px) {
+             @media (max-width: 1200px) {
+             .logo img { width: 50px; border-radius: 50%; cursor: none; transition: 0.3s; }
+             #profile-pic{ height: 180px;
+            width: 180px;}
+            .header-title{padding: 1px;font-size: 20px;}
+            .navbar ul { display: none; flex-direction: column; position: absolute; top: 60px; right: 10px; background: #111; width: 140px; text-align: center; border-radius: 5px; }
+            .navbar ul.active { display: flex; }
+            .navbar a { padding: 10px; display: block; }
+            .menu-toggle { margin-left:70% ; 
+            margin-right: 2px; display: block; position: initial;}
+         }
+
+         @media (max-width: 800px) {
              .logo img { width: 35px; border-radius: 50%; cursor: none; transition: 0.3s; }
              #profile-pic{ height: 180px;
             width: 180px;}
